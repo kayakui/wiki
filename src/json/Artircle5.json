@@ -1,0 +1,82 @@
+{
+    "text": [
+        {
+            "p1": "BOSTON \u2014 When it comes to measuring weight, BMI is the acronym everyone loves to hate. Health professionals have long used body mass index as a quick screening tool to fast-track certain patients into a \"code red\" management plan \u2014 people whose weight puts them in danger of future health problems."
+        },
+        {
+            "p2": "The issue is that BMI measures health risk by calculating height and weight. However, muscle and bone weigh more than fat, so BMI measurements can overestimate the danger for people with a muscular build or a larger frame. Conversely, BMI can underestimate health concerns in older adults and anyone who has lost muscle, according to the Harvard T.H. Chan School of Public Health in Boston."
+        },
+        {
+            "p3": "Now, authors of a new study say a different approach to weight measurement may be a more accurate way to predict future health issues. Bioelectrical impedance analysis, or BIA, uses undetectable electric currents to measure not only the percentage of body fat but also lean muscle mass and water weight."
+        },
+        {
+            "p4": "The technology works like this: You stand on metal plates on the machine while holding your hands or thumbs on another metal attachment held away from the body. Once started, the machine sends a weak electrical current through the body. Body fat, muscle and bone all have different electrical conductivity, so the machine uses algorithms to determine lean muscle mass, body fat percentage and water weight."
+        },
+        {
+            "p5": "\"We found body-fat percentage to be a stronger predictor of 15-year mortality risk in adults between the ages of 20 and 49 than BMI,\" said Arch Mainous III, lead author of the study published Tuesday in the journal Annals of Family Medicine."
+        },
+        {
+            "p6": "When it came to deaths from heart disease, people with high body fat as measured by BIA were 262% times more likely to die than people who had a healthy percentage of body fat, said Mainous, a professor and vice chair of research in community health and family medicine at the University of Florida School of Medicine."
+        },
+        {
+            "p7": "\"Now remember, using BMI did not flag any risk at all in this younger population, which isn't one we typically consider to be at high risk for heart disease,\" said senior author Dr. Frank Orlando, a clinical associate professor of community health and family medicine at University of Florida Health."
+        },
+        {
+            "p8": "\"Think of the interventions we can do to keep them healthy when we know this early. I think it's a game-changer for how we should look at body composition,\" Orlando said."
+        },
+        {
+            "p9": "None"
+        },
+        {
+            "p10": "BMI is measured by dividing your weight by the square of your height. (If you are mathematically challenged like I am, the National Institutes of Health has a free calculator.)"
+        },
+        {
+            "p11": "In BMI world, a body mass between 18.5 and 24.9 is a healthy weight, between 25 and 29.9 is overweight, between 30 and 34.9 is obese, between 35 and 39.9 is class 2 obesity, and anything greater than 40 is \"severe\" or class 3 obesity. People are considered underweight if their BMI is lower than 18.5."
+        },
+        {
+            "p12": "Using BMI to measure health risk works \u2014 on a population level. Countless studies have shown that a greater BMI really does correlate with developing chronic diseases of all kinds \u2014 cancer, heart disease, type 2 diabetes, kidney and liver disease, and more."
+        },
+        {
+            "p13": "Where BMI fails is at the patient level. Imagine a patient who is \"skinny fat\" \u2014 thin on the outside but riddled with globs of fat wrapped around major organs on the inside. Your BMI would be fine even though your health was at risk."
+        },
+        {
+            "p14": "\"Those people are more likely to have nonalcoholic fatty liver disease, more likely to have elevated glucose, more likely to have elevated blood pressure, and more likely to have inflammation in general,\" Mainous said."
+        },
+        {
+            "p15": "All of these health issues can be treated, stopped and in some cases even reversed if caught early enough, he added."
+        },
+        {
+            "p16": "While doctors are aware of the issues with BMI, many prefer it \"because it is cheap and easily put into practice,\" Mainous said. \"They'd like to use a more direct measurement such as a DEXA scan, but those cost too much and are not widely available, so everyone falls back to the indirect measure of BMI.\""
+        },
+        {
+            "p17": "DEXA stands for dual-energy X-ray absorptiometry and is the gold standard for body mass analysis. Such machines can cost between $45,000 and $80,000, so patients typically travel to a hospital or specialty center to get the scan, Orlando said. The cost to the patient can easily be $400 to $500 per scan, he said."
+        },
+        {
+            "p18": "\"However, we found the newer versions of bioelectrical impedance are pretty accurate, giving some valid and reliable results,\" Orlando said."
+        },
+        {
+            "p19": "One note \u2014 at-home based bioelectrical impedance products are not nearly as accurate, said Dr. Andrew Freeman, director of cardiovascular prevention and wellness at National Jewish Health in Denver."
+        },
+        {
+            "p20": "\"They can be affected a lot by how much body fluid you have, how hydrated you are,\" said Freeman, who was not involved with the new research. \"At-home measurements will only give a ballpark \u2014 the clinic-based machines are more precise.\""
+        },
+        {
+            "p21": "None"
+        },
+        {
+            "p22": "The new study analyzed data on 4,252 men and women who participated in the 1999 to 2004 federal survey called NHANES, or the National Health and Nutrition Examination Survey, a yearly checkup of the nation's health."
+        },
+        {
+            "p23": "Technicians measured each person's body composition, including height, weight and waist circumference. In addition, all participants underwent a clinic-based bioelectrical impedance analysis, which measures the body's resistance to electrical currents."
+        },
+        {
+            "p24": "Researchers then compared that data with the National Death Index through 2019 to see how many people died. After adjusting for age, race and poverty status, the study found a BMI that labeled someone as obese was not associated with a statistically significant higher risk of death from any cause, when compared with those in healthy BMI range."
+        },
+        {
+            "p25": "People with high body fat as measured by bioimpedance analysis, however, were 78% more likely to die from any cause, Mainous said. Measuring waist circumference was also helpful, but not as accurate as body mass."
+        },
+        {
+            "p26": "Add that to the 262% higher chance of dying from heart disease found by the study, and it's a no-brainer for doctors to use bioelectrical impedance analysis on patients, Orlando said."
+        }
+    ]
+}

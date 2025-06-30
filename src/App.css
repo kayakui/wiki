@@ -1,0 +1,153 @@
+/*body {
+    background-color: rgb(254, 249, 117, 0.1);
+}*/
+
+#root {
+    background-color: rgb(199, 249, 217, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    background-color: rgb(210, 224, 251);
+    align-items: center;
+    user-select: none;
+}
+
+.header h1 {
+    font-weight: 800;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+    padding: 0 0 10px 20px;
+}
+
+.navbar {
+    width: 100%;
+    justify-content: end;
+}
+
+/* TODO */
+/*.navbar :hover {
+    text-decoration: underline;
+}*/
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+    padding: 10px 100px 0 0;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    background-color: rgb(199, 249, 217, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 249, 217, 0.2);
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    border: 2px solid rgb(255, 214, 105);
+}
+
+.welcome span {
+    color: rgb(255, 10, 63);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.welcome p {
+    padding-top: 10px;
+}
+
+.table_of_contents {
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: center;
+
+}
+
+.news_blocks {
+    margin: 40px 0 40px 0;
+    background-color: rgb(255, 214, 105);
+}
+
+.news_blocks h3 {
+    background-color: #fff;
+    border: 2px solid grey;
+    margin: 5px 5px 0 5px;
+    padding: 5px 0 5px 20px;
+    font-weight: 700;
+}
+
+.news_blocks p {
+    padding: 0 10px 0 15px;
+}
+
+.lang_block {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-height: 300px;
+    min-height: 150px;
+    background-color: rgb(254, 249, 217, 0.9);
+    border: 2px solid rgb(255, 214, 105);
+    margin-bottom: 40px;
+}
+
+.lang_block h3 {
+    margin: 5px 5px 0 5px;
+    padding: 5px 0 5px 20px;
+    background-color: #fff;
+    border: 2px solid grey;
+}
+
+.lang_block div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.lang_block span {
+    color: rgb(255, 10, 63);
+}
+
+.footer {
+    width: 80%;
+    min-height: 120px;
+    max-height: 300px;
+    background-color: rgb(210, 224, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.footer span {
+    color: rgb(255, 10, 63);
+}
+
