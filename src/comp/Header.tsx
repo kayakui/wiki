@@ -1,7 +1,7 @@
 const Header = () => {
     return <>
         <div className="header">
-            <img src="public/loogo.svg"/>
+            <img src="loogo.svg"/>
             <h1>RandomMedia</h1>
             <div className="navbar">
                 <ul>

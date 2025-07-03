@@ -85,18 +85,10 @@ url = get_url()
 #     }
 #
 #
-# def create_json():
-#     json_filename = "test.json"
-#     json_path = f"/home/kayaki/web/Wiki/src/json/{json_filename}"
-#
-#     with open(json_path, "w") as json_file:
-#         json.dump(data, json_file, indent=4)
-#
-#     print(f"File written to: {json_path}")
 
 def full_creation():
     num = 0
-    ar_num = 1
+    full = []
     for i in range(len(url)):
         try:
             with urlopen(url[num]) as responce:
@@ -110,33 +102,47 @@ def full_creation():
             for i, para in enumerate(text):
                 par.append(f"{para}")
 
-            convert = []
+            json_conv = []
             for i, text in enumerate(par):
                 key = f"p{i+1}"
-                convert.append({key : text})
+                json_conv.append(key : text)
 
-            data = {
-                "text" : convert
-            }
+                full.append(json_conv)
+                num += 1
 
-            json_filename = f"Artircle{ar_num}.json"
-            json_path = f"/home/kayaki/web/Wiki/src/json/{json_filename}"
 
-            with open(json_path, "w") as json_file:
-                json.dump(data, json_file, indent=4)
-
-            print(f"File written to: {json_path}")
-            num += 1
-            ar_num += 1
 
         except Exception:
             num += 1
-            ar_num += 1
+            # print(f"{num}DUMASS")
             pass
+
+        count = 0
+
+        data = {
+                f"text{count + 1}" : full[count]
+                }
+
+        return data
+
+converted = full_creation()
+
+
+
+def create_json():
+        json_filename = f"Artircle2.json"
+        json_path = f"/home/kayaki/web/wiki/src/json/{json_filename}"
+
+        with open(json_path, "w") as json_file:
+            json.dump(data, json_file, indent=4)
+
+        print(f"File written to: {json_path}")
 
 
 def main():
-    # full_creation()
+    full_creation()
+    # create_json()
+    # print(converted)
 
 
 
